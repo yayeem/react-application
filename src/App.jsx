@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./App.css";
-import Candies from "./Candies.jsx";
-import CandyCard from "./components/CandyCard.jsx";
+import CandyCard from "./components/Concession.jsx";
 import CandyList from "./components/CandyList.jsx";
 import Footer from "./components/Footer.jsx";
 import Navbar from "./components/Navbar.jsx";
@@ -10,23 +9,16 @@ import PopularList from "./components/PopularList.jsx";
 import MovieCard from "./components/MovieCard.jsx";
 import NowPlaying from "./components/NowPlaying.jsx";
 
+import headerImage from "./assets/react_header.png";
 function App() {
   const name = "React Web Application";
 
   return (
     <>
       <header>
-        <div class="container">
+        <div class="container-fluid">
           <div class="row">
-            <div class="col-sm-3">
-              </div>
-            <div class="col-sm-8">
-              <h1>Welcome to my <br></br>{name}</h1>
-              <p>
-                This website is created for my Programming Rich-Media
-                Application course.
-              </p>
-            </div>
+              <img src={headerImage} alt="header"/>
           </div>
         </div>
       </header>

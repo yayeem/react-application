@@ -7,13 +7,16 @@
 }
 
 .movie-card {
-  background-color: #8686AC;
+  /* background-color: #8686AC; */
   width: 250px;
   color: black;
   transition: all 0.25s ease-in-out;
   margin-bottom: 25px;
   /* height: 350%; */
-  border-radius: 10px;
+   border-radius: 50px;
+   background: #57359a;
+   box-shadow: 20px 20px 60px #bebebe,
+                 -20px -20px 60px #ffffff;
 }
 
 .movie-card:hover {

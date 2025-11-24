@@ -1,6 +1,6 @@
 import React from 'react';
 import './CandyList.css';
-import CandyCard from './CandyCard';
+import CandyCard from './Concession';
 
 // import our assets
 import aeroImage from "../assets/aero.jpg";

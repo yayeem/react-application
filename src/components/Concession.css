@@ -1,6 +1,6 @@
 /*google font*/
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
 @import url("https://fonts.googleapis.com/css2?family=Momo+Signature&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 
 .card img {
@@ -17,9 +17,9 @@
   margin-bottom: 25px;
   /* height: 350%; */
   border-radius: 10px;
-  box-shadow: #0560af 0px 0px 20px 0px;
+  box-shadow: #d3b47a 0px 0px 20px 0px;
   border: 2px solid #4d4da1;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  background-image: linear-gradient(43deg, #4158D0 0%, #894e85 46%);
 }
 
 .card:hover {

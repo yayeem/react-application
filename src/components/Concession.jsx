@@ -1,7 +1,7 @@
 import React from 'react'
-import './CandyCard.css'
+import './Concession.css'
 
-const CandyCard = ({candy}) => {
+const Concession = ({candy}) => {
   return (
     <div className="card">
        <img src={candy.canImage} alt="Candy" /> 
@@ -11,4 +11,4 @@ const CandyCard = ({candy}) => {
   )
 }
 
-export default CandyCard
+export default Concession
