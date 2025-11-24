@@ -1,0 +1,26 @@
+/*google font*/
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Momo+Signature&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+.movie-card img {
+  height: 50%;
+  width: 100%;
+}
+
+.movie-card {
+  background-color: white;
+  width: 250px;
+  color: black;
+  transition: all 0.25s ease-in-out;
+  margin-bottom: 25px;
+}
+
+.movie-card:hover {
+  transform: scale(1.05);
+  box-shadow: 10px 10px 50px rgba(230, 0, 0, 0.315);
+}
+
+.movie-card p {
+  /* top right bottom right */
+  padding: 0px 10px 30px 10px;
+}

@@ -1,0 +1,6 @@
+/* makes a grid with flex properties */
+.popular_grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
