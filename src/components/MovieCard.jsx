@@ -8,8 +8,9 @@ const MovieCard = ({ movie }) => {
         src={`https://image.tmdb.org/t/p/w500/${movie.poster_path}`}
         alt="Candy"
       />
-      <h3>{movie.original_title}</h3>
-      <p>{movie.overview.slice(0, 125) + "..."}</p>
+      <h3>{movie.title}</h3>
+            <p className="date">{movie.release_date}</p>
+      <p>{movie.overview.slice(0, 150) + "..."}</p>
     </div>
   );
 };

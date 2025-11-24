@@ -8,7 +8,7 @@ const PopularList = () => {
   const [movies, setMovies] = useState([]);
 
   useEffect(() => {
-    // this is a custome function that will get the movies from TMDB
+    // this is a custom function that will get the movies from TMDB
 
     fetchMovies();
   });

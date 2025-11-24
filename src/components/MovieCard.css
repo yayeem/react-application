@@ -1,6 +1,5 @@
 /*google font*/
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Momo+Signature&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 .movie-card img {
   height: 50%;
@@ -8,19 +7,36 @@
 }
 
 .movie-card {
-  background-color: white;
+  background-color: #8686AC;
   width: 250px;
   color: black;
   transition: all 0.25s ease-in-out;
   margin-bottom: 25px;
+  /* height: 350%; */
+  border-radius: 0;
 }
 
 .movie-card:hover {
   transform: scale(1.05);
-  box-shadow: 10px 10px 50px rgba(230, 0, 0, 0.315);
+  box-shadow: 10px 10px 50px rgba(158, 33, 253, 0.315);
 }
 
 .movie-card p {
   /* top right bottom right */
-  padding: 0px 10px 30px 10px;
+  padding: 0px 10px 10px 10px;
+  text-align: left;
+  color: white;
+}
+
+.movie-card h3 {
+  padding-top: 20px;
+  font-family: "Montserrat", sans-serif;
+  font-size: large;
+  font-weight: bolder;
+  text-align: center  ;
+  color: white;
+} 
+
+.date {
+  text-align: center!important;
 }

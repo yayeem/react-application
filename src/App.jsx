@@ -8,6 +8,7 @@ import Navbar from "./components/Navbar.jsx";
 import Home from "./components/Home.jsx";
 import PopularList from "./components/PopularList.jsx";
 import MovieCard from "./components/MovieCard.jsx";
+import NowPlaying from "./components/NowPlaying.jsx";
 
 function App() {
   const name = "React Web Application";
@@ -15,12 +16,19 @@ function App() {
   return (
     <>
       <header>
-        <h1>My Learning About {name}</h1>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis illo
-          cumque sit dignissimos, consectetur nemo possimus accusamus maxime
-          excepturi molestiae nesciunt, laborum corrupti quis asperiores!
-        </p>
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-3">
+              </div>
+            <div class="col-sm-8">
+              <h1>Welcome to my <br></br>{name}</h1>
+              <p>
+                This website is created for my Programming Rich-Media
+                Application course.
+              </p>
+            </div>
+          </div>
+        </div>
       </header>
       <Navbar />
 
@@ -28,7 +36,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/popular" element={<PopularList />} />
-          <Route path="/playing" element={<MovieCard />} />
+          <Route path="/playing" element={<NowPlaying />} />
           <Route path="/candy" element={<CandyList />} />
         </Routes>
       </main>

@@ -1,6 +1,10 @@
 footer {
-  background-color: black;
+  background-color: #0f0e47;
   padding: 30px;
-  font-size: 30px;
+  font-size: 15px;
   font-weight: 100%;
+}
+
+img {
+  width: 20%;
 }
