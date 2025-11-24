@@ -1,5 +1,5 @@
 /*google font*/
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 .movie-card img {
   height: 50%;
@@ -13,10 +13,9 @@
   transition: all 0.25s ease-in-out;
   margin-bottom: 25px;
   /* height: 350%; */
-   border-radius: 50px;
-   background: #57359a;
-   box-shadow: 20px 20px 60px #bebebe,
-                 -20px -20px 60px #ffffff;
+  border-radius: 50px;
+  background: #57359a;
+  box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
 }
 
 .movie-card:hover {
@@ -36,10 +35,10 @@
   font-family: "Montserrat", sans-serif;
   font-size: large;
   font-weight: bolder;
-  text-align: center  ;
+  text-align: center;
   color: white;
-} 
+}
 
 .date {
-  text-align: center!important;
+  text-align: center !important;
 }

@@ -9,7 +9,7 @@ const MovieCard = ({ movie }) => {
         alt="Candy"
       />
       <h3>{movie.title}</h3>
-            <p className="date">{movie.release_date}</p>
+      <p className="date">{movie.release_date}</p>
       <p>{movie.overview.slice(0, 150) + "..."}</p>
     </div>
   );

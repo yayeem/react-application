@@ -1,14 +1,14 @@
-import React from 'react'
-import './Concession.css'
+import React from "react";
+import "./Concession.css";
 
-const Concession = ({candy}) => {
+const Concession = ({ candy }) => {
   return (
     <div className="card">
-       <img src={candy.canImage} alt="Candy" /> 
-    <h3>{candy.brand}</h3>
-    <p>{candy.descrip.slice(0, 125) + "..."}</p>
+      <img src={candy.canImage} alt="Candy" />
+      <h3>{candy.brand}</h3>
+      <p>{candy.descrip.slice(0, 125) + "..."}</p>
     </div>
-  )
-}
+  );
+};
 
-export default Concession
+export default Concession;

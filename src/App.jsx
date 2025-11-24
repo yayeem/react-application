@@ -18,7 +18,7 @@ function App() {
       <header>
         <div class="container-fluid">
           <div class="row">
-              <img src={headerImage} alt="header"/>
+            <img src={headerImage} alt="header" />
           </div>
         </div>
       </header>
