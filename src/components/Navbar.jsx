@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav class="sticky-top">
       <ul>
         <li>
           <Link to="/">Home</Link>

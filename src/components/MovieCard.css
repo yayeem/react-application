@@ -13,12 +13,12 @@
   transition: all 0.25s ease-in-out;
   margin-bottom: 25px;
   /* height: 350%; */
-  border-radius: 0;
+  border-radius: 10px;
 }
 
 .movie-card:hover {
   transform: scale(1.05);
-  box-shadow: 10px 10px 50px rgba(158, 33, 253, 0.315);
+  box-shadow: 10px 10px 50px rgba(130, 59, 184, 0.914);
 }
 
 .movie-card p {
