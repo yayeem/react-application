@@ -35,3 +35,11 @@ p {
   font-family: "Montserrat", sans-serif;
   font-weight: bolder;
 }
+
+.welcome{
+  font-size: 50px;
+}
+
+.content {
+  font-size: 25px;
+}

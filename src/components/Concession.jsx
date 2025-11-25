@@ -6,7 +6,7 @@ const Concession = ({ candy }) => {
     <div className="card">
       <img src={candy.canImage} alt="Candy" />
       <h3>{candy.brand}</h3>
-      <p>{candy.descrip.slice(0, 125) + "..."}</p>
+      <p>{candy.descrip.slice(0, 175) + "..."}</p>
     </div>
   );
 };
